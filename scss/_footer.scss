@@ -1,0 +1,42 @@
+footer{
+    height: 700px;
+    width: 100vw;
+    background: #7accc8;
+    display: flex;
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        p{
+            font-family: 'Lato', sans-serif;
+            color: #fff;
+            font-weight: 300;
+            font-size: 14px;
+        }
+        ul{
+            list-style: none;
+            li{
+                color: #fff;
+            }
+        }
+        :last-child{
+            font-family: 'Lato', sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 12px;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width:768px){
+    ul{
+        text-align: center;
+    }
+
+    p{
+        margin-bottom: 20px; 
+    }
+}

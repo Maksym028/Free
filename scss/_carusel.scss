@@ -1,0 +1,53 @@
+.carusel{
+    width: 100vw;
+    background: #606c6d;
+    height: 600px;
+    background-image: url('../img/branch.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .img{
+            width: 130px;
+            height: 130px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            background-image: url('../img/man.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        p{
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 43px;
+            color: #fff;
+            text-align: center;
+
+        }
+
+        .circle{
+            input{
+                width: 20px;
+                height: 20px;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                background: #fff;
+                margin-right: 10px; 
+            }
+        }
+
+        .circle :first-child,
+        .circle :last-child{
+            background: #606c6d;
+        }
+    }
+
+}
